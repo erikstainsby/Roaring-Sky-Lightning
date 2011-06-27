@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030EE7B713B85D9600872040 /* RSLLayoutElement.plist in Resources */ = {isa = PBXBuildFile; fileRef = 030EE7B613B85D9600872040 /* RSLLayoutElement.plist */; };
+		030EE7BA13B8638D00872040 /* RSLDesignElementMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 030EE7B913B8638D00872040 /* RSLDesignElementMO.m */; };
+		03375C3913B5AB8F003522D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03375C3813B5AB8F003522D4 /* Cocoa.framework */; };
+		03375C4313B5AB8F003522D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03375C4113B5AB8F003522D4 /* InfoPlist.strings */; };
+		03375C4613B5AB8F003522D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03375C4513B5AB8F003522D4 /* main.m */; };
+		03375C4913B5AB8F003522D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03375C4713B5AB8F003522D4 /* Credits.rtf */; };
+		03375C4C13B5AB8F003522D4 /* RSLightningProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03375C4B13B5AB8F003522D4 /* RSLightningProject.m */; };
+		03375C4F13B5AB8F003522D4 /* RSLightningProject.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03375C4D13B5AB8F003522D4 /* RSLightningProject.xib */; };
+		03375C5213B5AB8F003522D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03375C5013B5AB8F003522D4 /* MainMenu.xib */; };
+		03375C5513B5AB8F003522D4 /* RSLightningProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03375C5313B5AB8F003522D4 /* RSLightningProject.xcdatamodeld */; };
+		03375C5C13B5AB8F003522D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03375C3813B5AB8F003522D4 /* Cocoa.framework */; };
+		03375C6413B5AB8F003522D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03375C6213B5AB8F003522D4 /* InfoPlist.strings */; };
+		03375C6713B5AB8F003522D4 /* RSLightningTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 03375C6613B5AB8F003522D4 /* RSLightningTests.h */; };
+		03375C6913B5AB8F003522D4 /* RSLightningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03375C6813B5AB8F003522D4 /* RSLightningTests.m */; };
+		03F5E08E13B5B7FF0038848B /* RSLPaletteQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F5E08D13B5B7FF0038848B /* RSLPaletteQuartzView.m */; };
+		03F5E09113B5B81D0038848B /* RSLSurfaceQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F5E09013B5B81D0038848B /* RSLSurfaceQuartzView.m */; };
+		03F5E09C13B6D8450038848B /* RSLMetricsQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F5E09B13B6D8450038848B /* RSLMetricsQuartzView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03375C5D13B5AB8F003522D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03375C2B13B5AB8F003522D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03375C3313B5AB8F003522D4;
+			remoteInfo = RSLightning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030EE7B613B85D9600872040 /* RSLLayoutElement.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RSLLayoutElement.plist; sourceTree = "<group>"; };
+		030EE7B813B8638D00872040 /* RSLDesignElementMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLDesignElementMO.h; sourceTree = "<group>"; };
+		030EE7B913B8638D00872040 /* RSLDesignElementMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLDesignElementMO.m; sourceTree = "<group>"; };
+		03375C3413B5AB8F003522D4 /* RSLightning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSLightning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03375C3813B5AB8F003522D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03375C3B13B5AB8F003522D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03375C3C13B5AB8F003522D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03375C3D13B5AB8F003522D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03375C4013B5AB8F003522D4 /* RSLightning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSLightning-Info.plist"; sourceTree = "<group>"; };
+		03375C4213B5AB8F003522D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03375C4413B5AB8F003522D4 /* RSLightning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSLightning-Prefix.pch"; sourceTree = "<group>"; };
+		03375C4513B5AB8F003522D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03375C4813B5AB8F003522D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03375C4A13B5AB8F003522D4 /* RSLightningProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLightningProject.h; sourceTree = "<group>"; };
+		03375C4B13B5AB8F003522D4 /* RSLightningProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLightningProject.m; sourceTree = "<group>"; };
+		03375C4E13B5AB8F003522D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSLightningProject.xib; sourceTree = "<group>"; };
+		03375C5113B5AB8F003522D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03375C5413B5AB8F003522D4 /* RSLightningProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSLightningProject.xcdatamodel; sourceTree = "<group>"; };
+		03375C5B13B5AB8F003522D4 /* RSLightningTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSLightningTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03375C6113B5AB8F003522D4 /* RSLightningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSLightningTests-Info.plist"; sourceTree = "<group>"; };
+		03375C6313B5AB8F003522D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03375C6513B5AB8F003522D4 /* RSLightningTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSLightningTests-Prefix.pch"; sourceTree = "<group>"; };
+		03375C6613B5AB8F003522D4 /* RSLightningTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLightningTests.h; sourceTree = "<group>"; };
+		03375C6813B5AB8F003522D4 /* RSLightningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLightningTests.m; sourceTree = "<group>"; };
+		03F5E08C13B5B7FF0038848B /* RSLPaletteQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLPaletteQuartzView.h; sourceTree = "<group>"; };
+		03F5E08D13B5B7FF0038848B /* RSLPaletteQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLPaletteQuartzView.m; sourceTree = "<group>"; };
+		03F5E08F13B5B81D0038848B /* RSLSurfaceQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLSurfaceQuartzView.h; sourceTree = "<group>"; };
+		03F5E09013B5B81D0038848B /* RSLSurfaceQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLSurfaceQuartzView.m; sourceTree = "<group>"; };
+		03F5E09A13B6D8450038848B /* RSLMetricsQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLMetricsQuartzView.h; sourceTree = "<group>"; };
+		03F5E09B13B6D8450038848B /* RSLMetricsQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLMetricsQuartzView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03375C3113B5AB8F003522D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03375C3913B5AB8F003522D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03375C5713B5AB8F003522D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03375C5C13B5AB8F003522D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03375C2913B5AB8F003522D4 = {
+			isa = PBXGroup;
+			children = (
+				03375C3E13B5AB8F003522D4 /* RSLIghtning */,
+				03375C5F13B5AB8F003522D4 /* RSLightningTests */,
+				03375C3713B5AB8F003522D4 /* Frameworks */,
+				03375C3513B5AB8F003522D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03375C3513B5AB8F003522D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03375C3413B5AB8F003522D4 /* RSLightning.app */,
+				03375C5B13B5AB8F003522D4 /* RSLightningTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03375C3713B5AB8F003522D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03375C3813B5AB8F003522D4 /* Cocoa.framework */,
+				03375C3A13B5AB8F003522D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03375C3A13B5AB8F003522D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03375C3B13B5AB8F003522D4 /* AppKit.framework */,
+				03375C3C13B5AB8F003522D4 /* CoreData.framework */,
+				03375C3D13B5AB8F003522D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03375C3E13B5AB8F003522D4 /* RSLIghtning */ = {
+			isa = PBXGroup;
+			children = (
+				03F5E09913B6D4E00038848B /* Controllers */,
+				03F5E09713B6D49C0038848B /* View */,
+				03F5E09813B6D4A90038848B /* Model */,
+				03375C3F13B5AB8F003522D4 /* Supporting Files */,
+			);
+			name = RSLIghtning;
+			path = RSLightning;
+			sourceTree = "<group>";
+		};
+		03375C3F13B5AB8F003522D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030EE7B613B85D9600872040 /* RSLLayoutElement.plist */,
+				03375C4013B5AB8F003522D4 /* RSLightning-Info.plist */,
+				03375C4113B5AB8F003522D4 /* InfoPlist.strings */,
+				03375C4413B5AB8F003522D4 /* RSLightning-Prefix.pch */,
+				03375C4513B5AB8F003522D4 /* main.m */,
+				03375C4713B5AB8F003522D4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03375C5F13B5AB8F003522D4 /* RSLightningTests */ = {
+			isa = PBXGroup;
+			children = (
+				03375C6613B5AB8F003522D4 /* RSLightningTests.h */,
+				03375C6813B5AB8F003522D4 /* RSLightningTests.m */,
+				03375C6013B5AB8F003522D4 /* Supporting Files */,
+			);
+			path = RSLightningTests;
+			sourceTree = "<group>";
+		};
+		03375C6013B5AB8F003522D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03375C6113B5AB8F003522D4 /* RSLightningTests-Info.plist */,
+				03375C6213B5AB8F003522D4 /* InfoPlist.strings */,
+				03375C6513B5AB8F003522D4 /* RSLightningTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03F5E09713B6D49C0038848B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03375C5013B5AB8F003522D4 /* MainMenu.xib */,
+				03375C4D13B5AB8F003522D4 /* RSLightningProject.xib */,
+				03F5E08C13B5B7FF0038848B /* RSLPaletteQuartzView.h */,
+				03F5E08D13B5B7FF0038848B /* RSLPaletteQuartzView.m */,
+				03F5E08F13B5B81D0038848B /* RSLSurfaceQuartzView.h */,
+				03F5E09013B5B81D0038848B /* RSLSurfaceQuartzView.m */,
+				03F5E09A13B6D8450038848B /* RSLMetricsQuartzView.h */,
+				03F5E09B13B6D8450038848B /* RSLMetricsQuartzView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		03F5E09813B6D4A90038848B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03375C5313B5AB8F003522D4 /* RSLightningProject.xcdatamodeld */,
+				030EE7B813B8638D00872040 /* RSLDesignElementMO.h */,
+				030EE7B913B8638D00872040 /* RSLDesignElementMO.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		03F5E09913B6D4E00038848B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03375C4A13B5AB8F003522D4 /* RSLightningProject.h */,
+				03375C4B13B5AB8F003522D4 /* RSLightningProject.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03375C3313B5AB8F003522D4 /* RSLightning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03375C6C13B5AB8F003522D4 /* Build configuration list for PBXNativeTarget "RSLightning" */;
+			buildPhases = (
+				03375C3013B5AB8F003522D4 /* Sources */,
+				03375C3113B5AB8F003522D4 /* Frameworks */,
+				03375C3213B5AB8F003522D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSLightning;
+			productName = RSLightning;
+			productReference = 03375C3413B5AB8F003522D4 /* RSLightning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03375C5A13B5AB8F003522D4 /* RSLightningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03375C6F13B5AB8F003522D4 /* Build configuration list for PBXNativeTarget "RSLightningTests" */;
+			buildPhases = (
+				03375C5613B5AB8F003522D4 /* Sources */,
+				03375C5713B5AB8F003522D4 /* Frameworks */,
+				03375C5813B5AB8F003522D4 /* Resources */,
+				03375C5913B5AB8F003522D4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03375C5E13B5AB8F003522D4 /* PBXTargetDependency */,
+			);
+			name = RSLightningTests;
+			productName = RSLightningTests;
+			productReference = 03375C5B13B5AB8F003522D4 /* RSLightningTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03375C2B13B5AB8F003522D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Roaring Sky Software (Canada)";
+			};
+			buildConfigurationList = 03375C2E13B5AB8F003522D4 /* Build configuration list for PBXProject "RSLightning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03375C2913B5AB8F003522D4;
+			productRefGroup = 03375C3513B5AB8F003522D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03375C3313B5AB8F003522D4 /* RSLightning */,
+				03375C5A13B5AB8F003522D4 /* RSLightningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03375C3213B5AB8F003522D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03375C4313B5AB8F003522D4 /* InfoPlist.strings in Resources */,
+				03375C4913B5AB8F003522D4 /* Credits.rtf in Resources */,
+				03375C4F13B5AB8F003522D4 /* RSLightningProject.xib in Resources */,
+				03375C5213B5AB8F003522D4 /* MainMenu.xib in Resources */,
+				030EE7B713B85D9600872040 /* RSLLayoutElement.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03375C5813B5AB8F003522D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03375C6413B5AB8F003522D4 /* InfoPlist.strings in Resources */,
+				03375C6713B5AB8F003522D4 /* RSLightningTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03375C5913B5AB8F003522D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03375C3013B5AB8F003522D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03375C4613B5AB8F003522D4 /* main.m in Sources */,
+				03375C4C13B5AB8F003522D4 /* RSLightningProject.m in Sources */,
+				03375C5513B5AB8F003522D4 /* RSLightningProject.xcdatamodeld in Sources */,
+				03F5E08E13B5B7FF0038848B /* RSLPaletteQuartzView.m in Sources */,
+				03F5E09113B5B81D0038848B /* RSLSurfaceQuartzView.m in Sources */,
+				03F5E09C13B6D8450038848B /* RSLMetricsQuartzView.m in Sources */,
+				030EE7BA13B8638D00872040 /* RSLDesignElementMO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03375C5613B5AB8F003522D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03375C6913B5AB8F003522D4 /* RSLightningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03375C5E13B5AB8F003522D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03375C3313B5AB8F003522D4 /* RSLightning */;
+			targetProxy = 03375C5D13B5AB8F003522D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03375C4113B5AB8F003522D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03375C4213B5AB8F003522D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03375C4713B5AB8F003522D4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03375C4813B5AB8F003522D4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03375C4D13B5AB8F003522D4 /* RSLightningProject.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03375C4E13B5AB8F003522D4 /* en */,
+			);
+			name = RSLightningProject.xib;
+			sourceTree = "<group>";
+		};
+		03375C5013B5AB8F003522D4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03375C5113B5AB8F003522D4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		03375C6213B5AB8F003522D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03375C6313B5AB8F003522D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03375C6A13B5AB8F003522D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03375C6B13B5AB8F003522D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03375C6D13B5AB8F003522D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLightning/RSLightning-Prefix.pch";
+				INFOPLIST_FILE = "RSLightning/RSLightning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03375C6E13B5AB8F003522D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLightning/RSLightning-Prefix.pch";
+				INFOPLIST_FILE = "RSLightning/RSLightning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03375C7013B5AB8F003522D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSLightning.app/Contents/MacOS/RSLightning";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLightningTests/RSLightningTests-Prefix.pch";
+				INFOPLIST_FILE = "RSLightningTests/RSLightningTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		03375C7113B5AB8F003522D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSLightning.app/Contents/MacOS/RSLightning";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLightningTests/RSLightningTests-Prefix.pch";
+				INFOPLIST_FILE = "RSLightningTests/RSLightningTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03375C2E13B5AB8F003522D4 /* Build configuration list for PBXProject "RSLightning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03375C6A13B5AB8F003522D4 /* Debug */,
+				03375C6B13B5AB8F003522D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03375C6C13B5AB8F003522D4 /* Build configuration list for PBXNativeTarget "RSLightning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03375C6D13B5AB8F003522D4 /* Debug */,
+				03375C6E13B5AB8F003522D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03375C6F13B5AB8F003522D4 /* Build configuration list for PBXNativeTarget "RSLightningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03375C7013B5AB8F003522D4 /* Debug */,
+				03375C7113B5AB8F003522D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03375C5313B5AB8F003522D4 /* RSLightningProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03375C5413B5AB8F003522D4 /* RSLightningProject.xcdatamodel */,
+			);
+			currentVersion = 03375C5413B5AB8F003522D4 /* RSLightningProject.xcdatamodel */;
+			path = RSLightningProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03375C2B13B5AB8F003522D4 /* Project object */;
+}
